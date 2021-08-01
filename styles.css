@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+
+@font-face {
+    font-family: myFonts;
+    src: url(./ShadedLarch.ttf);
+
+}
+
+.hero{
+     background-image: url(./bg_image.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px 0px 0px;
+    
+}
+
+.logo
+{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 55px;
+    
+}
+#span1{
+    font-family: myFonts;
+    color: rgb(211, 73, 119);
+}
+#span2{
+    font-family: myFonts;
+    color: #f5769c;
+}
+
+ul li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+ul li a{
+    color: #cf2020;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color:#f5769c;
+}
+
+.button{
+    font-size: 20px;
+    letter-spacing: .4px;
+    text-decoration: none;
+    color: white;
+    background: rgb(211, 73, 119);
+    padding:8px;
+    border: 2px solid rgb(230, 243, 242);
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform .3s;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+h1{
+    color:rgb(110, 56, 74);
+    margin:10px 0px 20px 180px;
+    font-size: 35px;
+}
+
+h3{
+    color: rgb(255, 7, 90);
+    margin-bottom: 60px;
+    font-size: 25px;
+    letter-spacing:1px;
+}
+
+h4{
+    color:rgb(110, 56, 74);
+    margin:0px 0px 20px;
+    font-size: 27px;
+    letter-spacing:1px;
+}
+
+.forms{
+    width: 400px;
+    max-width: 100%;
+    position: absolute;
+    
+}
+.forms form input:first-child:focus-visible{
+    outline: none;
+}
+.forms form input:first-child{
+    width:100%;
+    display: inline-block;
+    padding: 14px 10px 14px 14px;
+    border: 2px solid rgb(211, 73, 119);
+    border-radius: 30px;
+    
+}
+.forms form input:last-child{
+    font-size: 16px;
+    color: white;
+    position:absolute;
+    display:inline-block;
+    border:none;
+    padding:10px 30px;
+    top:12%;
+    left: 77.5%;
+    background: rgb(211, 73, 119);
+    border-radius: 30px;
+}
+.icons{
+    padding-left: 200px;
+    padding-top: 390px;
+}
+.fa-twitter{
+    color: rgb(119, 204, 230);
+    
+}
+
+.fa-linkedin{
+    color:#0c2d75;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-youtube{
+    color:red;
+    padding-left: 20px;
+}
